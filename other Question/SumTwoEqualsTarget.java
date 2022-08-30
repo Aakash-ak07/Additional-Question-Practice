@@ -1,4 +1,4 @@
-//  Java Program to find index of two array elements whose sum is equal to given value 
+* Java Program to find index of two array elements whose sum is equal to given value */
 //Save it as SumTwoEqualsTarget.java
 
 import java.io.*;
@@ -22,14 +22,15 @@ public class SumTwoEqualsTarget {
 		
 		System.out.println("Enter the target value : ");
 		int val = scanner.nextInt();
+		
 		int index1=-1, index2=-1;
 		
 		for(int i=0;i<(n-1);i++) 
-    {
+		{
 			for(int j=(i+1);j<n;j++) 
-      {
+			{
 				if((arr[i]+arr[j]) == val) 
-        {
+				{
 					index1 = i;
 					index2 = j;
 					break;
@@ -37,11 +38,11 @@ public class SumTwoEqualsTarget {
 			}
 		}
 		if(index1==-1 && index2==-1) 
-    {
+		{
 			System.out.println("Elements not found");
 		}
-    else 
-    {
+		else 
+		{
 			System.out.println("The element at "+index1+" and "+index2+" is equal to "+val);
 		}
 	}
