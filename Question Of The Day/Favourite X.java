@@ -1,6 +1,7 @@
 // Alice loves a string with every character x but he has a string s. Can you make such a string for him?
 // Input
 // The first line contains a single string s.
+//         https://my.newtonschool.co/playground/code/ja0pka15pn1v/
 
 // Constraints:
 // S is a string consisting of lowercase English letters.
