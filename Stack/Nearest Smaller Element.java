@@ -55,7 +55,7 @@ class Main {
         }
         int ans[] = new int[n] ;
 		
-		Stack<Integer> st = new st<>() ;
+		Stack<Integer> st = new Stack<>() ;
 		st.push(arr[0]);
 		ans[0] = -1 ;
 		
