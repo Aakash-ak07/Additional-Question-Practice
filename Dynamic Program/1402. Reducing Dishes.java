@@ -20,7 +20,6 @@
 // Explanation: People do not like the dishes. No dish is prepared.
 
 
-
 class Solution {
     public int maxSatisfaction(int[] satisfaction) {
         Arrays.sort(satisfaction);
