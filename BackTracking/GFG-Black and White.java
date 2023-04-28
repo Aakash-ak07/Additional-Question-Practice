@@ -4,14 +4,12 @@
 // The knights have to be placed on different squares. A knight can move two squares horizontally and one square vertically (L shaped), or two squares vertically and one square horizontally (L shaped). The knights attack each other if one can reach the other in one move.
 
 // Example 1:
-
 // Input:
 // N = 2, M = 2
 // Output: 12 
 // Explanation: There are 12 ways we can place a black and a white Knight on this chessboard such that they cannot attack each other.
 
 // Example 2:
-
 // Input:
 // N = 2, M = 3
 // Output: 26
